@@ -3,6 +3,7 @@
 <p align="center">
   <b><h2><ins>Motivation</ins></h2></b><br>
 </p>  
+
 In the following steps, I will discuss how I approached the problem of quora question pairs and the motivation for coming up with an architecture like Siamese network.
 
 <b><ins>How and why I chose the Siamese based network?</ins></b>
