@@ -42,6 +42,25 @@ In the following steps, I will discuss how I approached the problem of quora que
 </li>
   </ul>
   
+  <b><ins>Reducing the search space of finding the top-3 closest match to the query question</ins></b>
+  
+  <ul>
+  <li>Finding the top-3 closest match for a given query from a pool of 650K or even more questions is a time-consuming task and is also not computationally efficient if done through the brute-force method.
+</li>
+  <li>To reduce the search space I used K-Means clustering to reduce the time complexity by a big margin.
+</li>
+  <li>For example: Finding the top-3 closest match for 100 questions from a pool of 650K questions took 313 seconds when done using the brute-force method. Whereas, using the K-Means clustering technique it took 200 seconds for finding the top-3 closest match for <b>1000</b> questions from a pool of 650K questions.
+</li>
+  <li>Not only that clustering the data points did not affect the final results and the clustering was robust when compared with the brute-force method since both the methods gave a same top-3 closest match for each given query question.
+</li>
+ </ul>
+ 
+ <p align="center">
+  <img src="https://github.com/aditya-AI/Top-3-Question-Suggestions-For-A-Given-Query/blob/master/siamese.png">
+</p>
+ 
+ 
+  
 
 
 
