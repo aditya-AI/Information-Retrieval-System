@@ -6,7 +6,7 @@
 
 In the following steps, I will discuss how I approached the problem of quora question pairs and the motivation for coming up with an architecture like Siamese network.
 
-<b><u>How and why I chose the Siamese based network?</u></b>
+<b><ins>How and why I chose the Siamese based network?</ins></b>
 <ul>
   <li>Having worked on computer vision in domains like medical imaging, biometrics, and document image super-resolution, I approached the problem of deciding the architecture for the quora question pairs dataset based on specifically biometrics.</li>
    <li>While I was working on medical imaging at IIT Mandi, I also worked on a bit of biometrics domain wherein I had palm & knuckle print images of the left & right hand. Similar to that, in this problem I had question 1 & question 2 as an input. Hence, I went with the best possible approach of using a <b>Siamese based network.</b></li>
