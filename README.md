@@ -13,7 +13,7 @@ In the following steps, I will discuss how I approached the problem of quora que
    <li>Even though the task was to find from a pool of questions which top-3 questions are closer to the user inputted question, to solve this problem, classifying given two questions are they similar or dissimilar was essential. The dataset had same questions repeated multiple times against different set of questions, so the network learned meaningful and discriminative features which eventually helped in solving the prime task of finding top-3 suggestions.</li>
    <li>A siamese network had two inputs and it works on a phenomenon of sharing weights. The network’s input was question 1 and question 2 as tokenized vectors each of length 103, label being 0 or 1.
 </li>
-   <li>I tried a variety of architectures for the siamese network. Note that there are three functions in my network namely Embedding, Siamese, Predict. Following are some of architectural changes I made in my siamese function:
+   <li>I tried a variety of architectures for the siamese network. Note that there are three functions in my network namely <b>Embedding()</b>, <b>Middle()</b>, <b>Predict()</b>. Following are some of architectural changes I made in the <b>Middle()</b> function:
      <ul>
        <li>Fully Conv1D siamese network which gave a validation accuracy of around 75%. This had multiple combinations of conv1D layers.</li>
        <li>Conv1D + LSTM + Dense (In sequence) along with MaxPool1D layer which gave me a 2% boost in validation accuracy (~78%).</li>
