@@ -2,7 +2,7 @@
 
 <p align="center">
   <b><h2>Motivation</h2></b><br>
-  
+</p>  
 In the following steps, I will discuss how I approached the problem of quora question pairs and the motivation for coming up with an architecture like Siamese network.
 
 <b><u>How and why I chose the Siamese based network?</u></b>
@@ -15,6 +15,6 @@ In the following steps, I will discuss how I approached the problem of quora que
    <li>I tried a variety of architectures for the siamese network. Note that there are three functions in my network namely Embedding, Siamese, Predict. Following are some of architectural changes I made in my siamese function:
 </li>
   </ul>
-
+<p align="center">
   <img src="https://github.com/aditya-AI/Top-3-Question-Suggestions-For-A-Given-Query/blob/master/pipeline.png">
 </p>
