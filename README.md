@@ -1,4 +1,4 @@
-# Top-3 Question Suggestions For A Given Query
+# TInformation Retrieval System
 
 <p align="center">
   <b><h2><ins>Motivation</ins></h2></b><br>
